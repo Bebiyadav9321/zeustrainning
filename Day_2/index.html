@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> -->
+    <style>
+      body{
+        font-family: 'Roboto', sans-serif;
+        background-color: #fffcbf;
+        /* font-weight: bolder; */
+      }
+      h1{
+        background-color: #9a0002;
+        border-bottom: 8px solid red;
+        display:flex;
+        margin-bottom: 1px;
+        justify-content: center;
+        align-items: center;
+        color:#fffcbf;
+        font-style: italic;
+        letter-spacing:8px;
+        word-spacing: 4px;
+      }
+      .first{
+        background-color:#009901;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+      }
+      .container{
+        margin-top: 2px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      img{
+        padding-left: 1px;
+        border: 2px dotted #cb8963;
+      }
+      a{
+        font-weight: bolder;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My first web page</h1>
+    <h3 class="first" style="margin-top: 7px;">What this is</h3>
+    <p style="color: black;font-weight: lighter; font-size: 19px;">
+      Welcome to?<i>my first webpage.</i>I created this webpage without the
+      assistance of a webpage editor.Just my little text editor and a keen
+      <b>UNDERSTANDING OF HTML</b>
+    </p>
+    <h2 class="first">Why this is</h2>
+    <ul style="color: red;font-style: italic;font-weight: bold;">
+      <li>To learn HTML</li>
+      <li>List element</li>
+      <ol>
+        <li>Home</li>
+        <li>FAQ</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ol>
+      <li>Here I have created ordered and unordered list</li>
+    </ul>
+    <h3 class="first">ZeusLearning.com</h3>
+    <a
+      href="https://www.zeuslearning.com/"
+      target="_blank"
+      style="color: #ca249f"
+      >This link will open zeuslearning .com in new tab</a
+    >
+    <h3 class="first">On click of following image navigate to Google.com</h3>
+    <img src="google.png" alt="Nothing is Display" />
+    <h4>Some random table</h4>
+    <table border="1" style="background-color: #888888;">
+      <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+      </tr>
+      <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+      </tr>
+      <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+      </tr>
+      <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 1</td>
+      </tr>
+    </table>
+    <h4>Some random form</h4>
+    <b>Note:</b>It looks the part, but won't do a anything.<br /><br />
+    Name:<br /><br />
+    <form action="" name="form1" onsubmit="return validate()">
+    <input type="text" placeholder="Your name" name="name1"/>
+    <br /><br />
+    Comments:<br /><br />
+    <textarea placeholder="Your comments" style="overflow-y:scroll;line-height: 80px;"  name="comment" ></textarea>
+    <br><br>
+    Are you:<br></br>
+    <input type="radio" name="r1" id="radio1" >Male<br><br>
+    <input type="radio" name="r1" id="radio1">Female <br><br>
+    <button> Submit Query</button>
+    </form>
+    </div>
+    <script>
+      function  validate(){
+          var Name=document.form1.name1;
+          var comment=document.form1.comment;
+          var radio=document.form1.r1;
+          if((Name.value.length<=0)&&(comment.value.length<=0)&&(radio.value.length<=0)){
+              alert("All fields are compulsory");
+              Name.focus();
+              return false;
+          } 
+          if (Name.value.length<=0) {
+            alert("name cannot be empty");
+            Name.focus();
+            return false;
+          }
+          if (comment.value.length<=0) {
+            alert("comment cannot be empty");
+            comment.focus();
+            return false;
+          }
+          if (radio.value.length<=0) {
+            alert("Please Select Gender");
+            radio.focus();
+            return false;
+          }
+          return false;
+      }
+  </script>
+  </body>
+</html>
