@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum dashboard Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <img class="logo" src="logo%20used%20in%20header.svg" alt="no image">
+      
+        <div class="nav-content">
+            <ul class="nav-menu">
+                <li class="nav-item"><a style="color: white;" class="nav-link" href="#"> Dashboard </a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Content</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">User</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#">Reports</a></li>
+            </ul>
+            <div style="display: flex; align-items: center; ">
+                <ul style="display: flex; align-items: center;">
+                <li  style="padding-right: 15px;"><a href="/"><img src="alerts.svg" alt="image badges1">
+                    <span class="badgef1">2</span></a></li>
+                 <li style="padding-right: 15px;" ><a href="/"> <img src="announcements.svg" alt="image badges1">
+                    <span class="badges2">1</span></a></li>
+                  <li style="padding-right: 15px;"> <img class="profile-img" src="profile.jpg" alt="no image"></li>
+                </ul>
+           </div>
+
+            <div class="MenuSidebar">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+
+    </nav>
+    <main class="container">
+        <div class="containernav">
+            <div class="slider">
+                <img src="courses.svg" alt="courses">
+                <p>
+                    4 courses
+                </p>
+            </div>
+            <div class="slider">
+                <img src="classes.svg" alt="class">
+                <p>
+                    5 classes
+                </p>
+            </div>
+        </div>
+        <div class="card_header">
+            <p>Showing 4 of 4 courses</p>
+            <div class="headsorting">
+                <p> <span>Sort By :</span></p>
+                    <select class="" name="coursesname"
+                            style=" border: none; border-bottom: 2px solid #000000; background-color: #EEEEEE;">
+                            <option value="">Course name</option>
+                        </select> 
+                <span>
+                <img src="sort.svg" alt="sort">
+                </span>
+            </div>
+        </div>
+
+        <div class="Card_body">
+            <!-- first card start here -->
+            <div class="card">
+                <div class="upper">
+                    <img class="card-img" src="imageMask-1.svg" alt="cardimg">
+                    <div class="card-content" style="width: 70%;">
+                        <div class="acc" style="display: flex; justify-content: space-between;">
+                            <h2 style="font-size:16px;">Acceleration</h2>
+                            <img src="favourite.svg" alt="favourite">
+                        </div>
+                        <p>Physics <span> | </span> Grade 7 <span style="color: green;">+2</span></p>
+                        <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                            Topics </p>
+
+                        <select class="coursesname" name="coursesname"
+                            style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                            <option value="">Mr. Frank's Class B</option>
+                        </select>
+                        <p style="padding-top: 8px;"> 50 Students <span style="padding-right:4px ;">|</span> 21-Jan-2020
+                            - 21-Aug-2020 </p>
+                    </div>
+                </div>
+                <hr />
+                <div class="card-footer">
+                    <img src="preview.svg" alt="preview image">
+                    <img src="manage%20course.svg" alt="no">
+                    <img src="grade%20submissions.svg" alt="no">
+                    <img src="reports.svg" alt="no">
+                </div>
+
+            </div>
+
+             <!-- 2nd card start here -->
+            <div class="card">
+                <div class="upper">
+                    <img class="card-img" src="imageMask-2.svg" alt="cardimg">
+                    <div class="card-content" style="width: 70%;">
+                        <div class="acc" style="display: flex; justify-content: space-between;">
+                            <h2 style="font-size:16px;">Displacement, Velocity and Speed</h2>
+                            <img src="favourite.svg" alt="favourite">
+                        </div>
+                        <p>Physics <span> | </span> Grade 6 <span style="color: green;"> +3</span></p>
+                        <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>2</b> </span>Units <span
+                                style="padding:0px 4px ;">15 </span>Lessons<span style="padding:0px 4px ;">20 </span>
+                            Topics </p>
+                        <select class="coursesname" name="coursesname"
+                            style="padding: 10px 0px; opacity: 0.3; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                            <option value="">No Classes</option>
+                        </select>
+                    </div>
+                </div>
+                <hr />
+                <div class="card-footer">
+                    <img src="preview.svg" alt="preview image">
+                    <img style="opacity: 0.6;" src="manage%20course.svg" alt="no">
+                    <img style="opacity: 0.6;" src="grade%20submissions.svg" alt="no">
+                    <img src="reports.svg" alt="no">
+                </div>
+
+            </div>
+
+            <!-- 3rd card start here -->
+            <div class="card">
+                <div class="upper">
+                    <img class="card-img" src="imageMask-3.svg" alt="cardimg">
+                    <div class="card-content" style="width: 70%;">
+                        <div class="acc" style="display: flex; justify-content: space-between;">
+                            <h2 style="font-size:16px;">Introduction to Biology: Micro organisms and how they affec...
+                            </h2>
+                            <img src="favourite.svg" alt="favourite">
+                        </div>
+                        <p>Biology <span> | </span> Grade 4 <span style="color: green;">+1</span></p>
+                        <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                            Topics </p>
+
+                        <select class="coursesname" name="coursesname"
+                            style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                            <option value="">All Classes</option>
+                        </select>
+                        <p style="padding-top: 8px;"> 300 Students </p>
+                    </div>
+                </div>
+                <hr />
+                <div class="card-footer">
+                    <img src="preview.svg" alt="preview image">
+                    <img style="opacity: 0.6;" src="manage%20course.svg" alt="no">
+                    <img style="opacity: 0.6;" src="grade%20submissions.svg" alt="no">
+                    <img src="reports.svg" alt="no">
+                </div>
+
+            </div>
+            <!-- 4th card start heree -->
+            <div class="card">
+                <div class="upper">
+                    <img class="card-img" src="imageMask.svg" alt="cardimg">
+                    <div class="card-content" style="width: 70%;">
+                        <div class="acc" style="display: flex; justify-content: space-between;">
+                            <h2 style="font-size:16px;">Introduction to High School Mathematics</h2>
+                            <img src="favourite.svg" alt="favourite">
+                        </div>
+                        <p>Mathematics <span> | </span> Grade 8 <span style="color: green;">+3</span></p>
+                        <p style="padding-top: 2px;"><span style="padding-right:4px ;"> <b>4</b> </span>Units <span
+                                style="padding:0px 4px ;">18 </span>Lessons<span style="padding:0px 4px ;">24 </span>
+                            Topics </p>
+
+                        <select class="coursesname" name="coursesname"
+                            style="padding: 10px 0px; margin-top: 3px; border: none; border-bottom: 2px solid #000000;">
+                            <option value="">Mr. Frank's Class A</option>
+                        </select>
+                        <p style="padding-top: 8px;"> 44 Students <span style="padding-right:4px ;">|</span> 21-Jan-2020
+                            - 21-Aug-2020 </p>
+                    </div>
+                </div>
+                <hr />
+                <div class="card-footer">
+                    <img src="preview.svg" alt="preview image">
+                    <img src="manage%20course.svg" alt="no">
+                    <img src="grade%20submissions.svg" alt="no">
+                    <img src="reports.svg" alt="no">
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footerdiv">
+            <img src="logo%20used%20in%20footer.svg" alt="no image here">
+            <div class="footer-content">
+                <p class="footer-para"> | <span style="padding-left: 10px;"> Copyright</span> <span> &copy;</span> 2020-2021
+                    <span style="padding-left: 8px;">Zeus Systems Pvt. Ltd.</span>
+                    <span style="padding-left: 8px;">All rights reserved.</span>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach(n => n.addEventListener("click", closeMenu));
+function closeMenu() {
+    MenuSidebar.classList.remove("active");
+    navMenu.classList.remove("active");
+}
+
+const MenuSidebar = document.querySelector(".MenuSidebar");
+const navMenu = document.querySelector(".nav-menu");
+
+MenuSidebar.addEventListener("click", SideMenu);
+
+function SideMenu() {
+    MenuSidebar.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+    </script>
+</body>
+
+</html>
