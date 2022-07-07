@@ -1,0 +1,146 @@
+.navbarclass {
+  /* background: transparent url("Images/header\ pattern\ image.png") 0% 0% */
+  /* background-image: url("header.png") */
+  /* no-repeat padding-box; */
+  background-size: cover;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  opacity: 1;
+}
+.navbarclass .logo {
+  padding-top: 20px;
+  padding-left: 24px;
+  width: 134px;
+  height: 36px;
+  opacity: 1;
+}
+
+footer {
+  width: 100%;
+  padding-top: 10px;
+  min-height: 30px;
+  background: #E0E1E1 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+footer #footerdiv {
+  width: 45%;
+  margin: auto;
+  display: flex;
+  color: #616161;
+}
+footer #footerdiv .footer-content .para {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.meincom {
+  background-color: #eeeeee;
+  background-size: cover;
+  padding: 30px;
+}
+.meincom .div_container {
+  margin: 10px auto;
+  padding: 28px;
+  width: 488px;
+  height: 530px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-top: 3px solid #3ac7ec;
+  opacity: 1;
+}
+.meincom .div_container .heading {
+  display: flex;
+}
+.meincom .div_container .heading .p-heading {
+  text-align: center;
+  margin-left: 120px;
+  font: normal normal medium 24px/28px Quicksand;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0px;
+  color: #222222;
+  opacity: 1;
+}
+.meincom .div_container .heading .img-back {
+  cursor: pointer;
+}
+.meincom .div_container .select-radio {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+}
+.meincom .div_container .select-radio #first-radio, .meincom .div_container .select-radio #sec-radio {
+  text-align: left;
+  font: normal normal medium 16px/20px Quicksand;
+  font-size: 16;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+  display: flex;
+}
+.meincom .div_container .select-radio .indep, .meincom .div_container .select-radio .dist {
+  padding-top: 3px;
+  padding-left: 3px;
+}
+.meincom .div_container .select-radio #first-radio, .meincom .div_container .select-radio #sec-radio {
+  margin-left: 20px;
+}
+.meincom .div_container .select-radio #sec-radio {
+  margin-left: 40px;
+}
+.meincom .div_container .container {
+  display: flex;
+  flex-direction: column;
+}
+.meincom .div_container .container .inputbox1 {
+  padding: 5px;
+  margin-top: 5px;
+  display: flex;
+  border: none;
+  border-bottom: 2px solid lightgray;
+}
+.meincom .div_container .container .title {
+  text-align: left;
+  font: normal normal medium 12px/16px Quicksand;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
+}
+.meincom .div_container .container .btn {
+  padding: 10px;
+  width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  height: 40px;
+  font-weight: 300;
+  font-size: 14px;
+  border: none;
+  background: #3fd28b 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2392156863);
+  opacity: 1;
+}
+.meincom .div_container .container .img-dwon {
+  margin-left: 300px;
+}
+.meincom .div_container .container .img-dwon1 {
+  margin-left: 400px;
+}
+.meincom .div_container .container .forgot {
+  margin-top: 2px;
+  text-align: right;
+  font: normal normal medium 14px/18px Quicksand;
+  letter-spacing: 0px;
+  color: #1f7a54;
+  text-transform: uppercase;
+  opacity: 1;
+}
+.meincom .content2 {
+  width: 15%;
+  margin: 20px auto;
+}
+.meincom .content2 p {
+  padding: 0px 30px;
+  color: #1F7A54;
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
