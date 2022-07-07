@@ -1,17 +1,17 @@
 footer {
-  width: 100%;
   padding-top: 10px;
   min-height: 30px;
   background: #E0E1E1 0% 0% no-repeat padding-box;
   opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer #footerdiv {
-  width: 45%;
   margin: auto;
   display: flex;
   color: #616161;
 }
 footer #footerdiv .footer-content .para {
-  padding-left: 20px;
   padding-top: 5px;
 }/*# sourceMappingURL=footer.css.map */

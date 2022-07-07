@@ -9,7 +9,9 @@
 .meincom {
   background-color: #eeeeee;
   background-size: cover;
-  padding: 30px;
+  padding-top: 30px;
+  // padding: 30px;
+  // height: 100vh;
   .div_container {
     margin: 10px auto;
     padding: 28px;
@@ -88,7 +90,7 @@
         width: 216px;
         margin-left:auto;
         margin-right: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         height: 40px;
         font-weight: 300;
         font-size: 14px;
@@ -123,12 +125,16 @@
   }
   .content2{
     width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px auto;
     p{
         padding: 0px 30px; color: #1F7A54; font-size: 14px;
     }
  }
 }
+
 // footer{
 //     width: 100%;
 //     padding-top: 10px;

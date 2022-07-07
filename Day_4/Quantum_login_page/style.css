@@ -6,4 +6,31 @@
 /* input */
 body{
     font-family: 'Quicksand', sans-serif;
+    background-color: #eeeeee;
+}
+@media only screen and (max-width: 934px) {
+.content2 p{
+    padding: 0px 30px;
+    color: #1F7A54;
+    font-size: 14px;
+    flex-direction: row;
+    display: flex;
+}
+footer{
+  width: 100%;
+}
+#footerdiv {
+  /* width: 45%; */
+  margin: auto;
+  display: flex;
+  color: #616161;
+}
+footer #footerdiv .footer-content .para {
+  /* padding-left: 20px; */
+  padding-top: 5px;
+}
+
+.f-logo{
+  width: 90px;
+}
 }
