@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quantum dashboard Page</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="icon.css">
+  </head>
+  <body>
+    <!-- <script src="dashbord.js"></script> -->
+    <nav class="navbar">
+      <img class="logo" src="logo%20used%20in%20header.svg" alt="no image" />
+      <div class="nav-content">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Dashboard </a><span class="tt"><i class="fa-solid fa-angle-down"></i></span>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Content</a>
+            <span id="angle-up" style="display: none;margin-left: 120px;"><i class="fa-solid fa-angle-up"></i></span>
+            <span class="t"  id="myBtn"><i class="fa-solid fa-angle-down btni"></i></span></li>
+            <p id="demo" style="margin-left: 30px; display: none;">COURSE CATALOG</p>
+          <li class="nav-item"><a class="nav-link" href="#">User</a><span class="t1"><i class="fa-solid fa-angle-down " ></i></span></i></li>
+          <li class="nav-item"><a class="nav-link" href="#">Reports</a><span class="t2"><i class="fa-solid fa-angle-down"></i></span></li>
+          <li class="nav-item"><a class="nav-link" href="#">Admin</a><span class="t3"><i class="fa-solid fa-angle-down"></i></span></i></li>
+        </ul>
+        <div style="display: flex; align-items: center">
+          <ul style="display: flex; align-items: center;margin-right: 20px;">
+            <li style="padding-right: 15px">
+              <a>
+                <div class="dropdown">
+                  <!-- <button class="dropbtn">Dropdown</button> -->
+                  <img class="dropbtn" src="alerts.svg" alt="image badges1" />
+                  <div class="dropdowncontent">
+                    <!-- <div class="button1">SHOW All</div> -->
+                    <div class="contentbody">
+                    <div style="background-color:#FFFFEE;">
+                    <p class="title">License for Introduction to Algebra  <br> has been assigned to your school</p>
+                    <img class="minus" src="minus.png" alt="">
+                    <p class="date1">15-Sep-2018 at 07:21 pm</p>
+                    </div>
+                    <div  style="background-color: #FFFFFF ; height: 150px;">
+                    <p class="title">Lesson 3 Practice Worksheet overdue <br> for Amy Santiago</p>
+                    <img class="greentic" src="greentick.png" alt="no img">
+                    <br>
+                    <p class="coursep">Course: <b> Advanced Mathematics</b></p>
+                    <p class="date1">15-Sep-2018 at 05:21 pm</p>
+                    </div>
+                    <div  style="background-color: #FFFFEE">
+                    <p class="title">23 new students created</p>
+                    <img class="minus"  src="minus.png" alt="">
+                    <p class="date1">14-Sep-2018 at 01:21 pm</p>
+                    </div>
+                    <div  style="background-color: #FFFFEE">
+                    <p class="title">15 submissions ready for evaluation</p>
+                    <img  class="minus"  src="minus.png" alt="">
+                    <p class="classc">Class: Basics of Algebra</p>
+                    <p class="date1">13-Sep-2018 at 01:15 pm</p>
+                    </div>
+                    <div  style="background-color: #FFFFEE">
+                    <p class="title">License for Basic Concepts in Geometry has <br> been assigned to your... school</p>
+                    <img class="minus"  src="minus.png" alt="">
+                    <p class="date1">15-Sep-2018 at 07:21 pm</p>
+                    </div>
+                    <div  style="background-color: #FFFFFF">
+                    <p class="title">Lesson 3 Practice Worksheet overdue <br> for Sam Diego</p>
+                    <img class="greentic" src="greentick.png" alt="no img">
+                    <br>
+                    <p class="coursep">Course: Advanced Mathematics</p>
+                    </div>
+                    </div>
+                    <div class="button1">SHOW All</div>
+
+                  </div>
+                  
+                </div>
+
+                <!-- <img src="alerts.svg" alt="image badges1" /> -->
+                
+                <span class="badgef1"> <span class="num">2</span></span></a
+              >
+            </li>
+            <li style="padding-right: 15px">
+              <a>
+
+                <div class="dropdown1">
+                  <!-- <button class="dropbtn">Dropdown</button> -->
+                <img class="dropbtn1" src="announcements.svg" alt="image badges1" />
+                  <!-- <img class="dropbtn1" src="alerts.svg" alt="image badges1" /> -->
+                  <div class="dropdowncontent1">
+                    <!-- <div class="button1">SHOW All</div> -->
+                    <div class="icon-body">
+                      <div style="background-color: #FFFFEE">
+                        <p class="pa">PA: <b> Wilson Kumar</b></p>
+                        <img class="greentic1"src="greentick.png" alt="no img">
+                        <p class="title2">No classes will be held on 21st Nov</p>
+                          <p class="file">2 files are attached &nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15-Sep-2018 at 07:21 pm </p>
+                      
+                      </div>
+                      <div style="background-color: #FFFFFF">
+                        <p class="pa">PA: <b> Samson White</b></p>
+                        <img class="minus1" src="minus.png" alt="no img">
+                        <p class="title2">Guest lecture on Geometry on 20th September</p>
+                          <p class="file">2 files are attached &nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15-Sep-2018 at 07:21 pm</p>
+                        
+                      </div>
+                      <div style="height:190px">
+                        <p class="pa">PA: <b> Wilson Kumar</b></p>
+                        <img class="greentic1"src="greentick.png" alt="no img">
+                        <p class="title2">Additional course materials available on request</p>
+                        <p class="coursepp">Course: Mathematics 101</p>
+                        <p class="date2" style="margin-top:px;">15-Sep-2018 at 07:21 pm</p>
+                      </div>
+                      <div style="background-color: #FFFFFF">
+                        <p class="pa">PA: <b> Wilson Kumar</b></p>
+                        <img class="minus1" src="minus.png" alt="no img">
+                        <p class="title2">No classes will be held on 25th Dec</p>
+                        <p class="date2" style="margin-top: 25px;">15-Sep-2018 at 07:21 pm</p>
+                      </div>
+                      <div>
+                        <p class="pa">PA: <b> Wilson Kumar</b></p>
+                        <img class="minus1" src="minus.png" alt="no img">
+                        <p class="title2">Additional course materials available on request</p>
+                        <p class="coursepp">Course: Mathematics 101</p>
+                      </div>
+                    </div>
+                    <div class="btnclass">
+                      <div class="button2">SHOW All</div>|
+                      <div class="button3">SHOW All</div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <span class="badges2"><span class="num">1</span></span></a
+              >
+            </li>&nbsp;&nbsp;&nbsp;
+            <li style="padding-right: 15px">
+              <img class="profile-img" src="profile.jpg" alt="no image" />
+              <span class="badgef1" style="background-color:white ;color:#000000 ;"><span class="num">T</span></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="MenuSidebar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="containernav">
+          <div class="slider" style="border-bottom: 4px solid black;">
+              <img src="courses.svg" alt="courses">
+              <p>
+                  4 courses
+              </p>
+          </div>
+          <div class="slider">
+              <img src="classes.svg" alt="class">
+              <p>
+                  5 classes
+              </p>
+          </div>
+      </div>
+      <div class="card_header">
+          <p>Showing 4 of 4 courses</p>
+          <div class="headsorting">
+              <p> <span>Sort By :</span></p>
+                  <select class="" name="coursesname"
+                          style=" border: none; border-bottom: 2px solid #000000; background-color: #EEEEEE;">
+                          <option value="">Course name</option>
+                      </select> 
+              <span>
+              <img src="sort.svg" alt="sort">
+              </span>
+          </div>
+      </div>
+
+      <div class="Card_body">
+      
+      </div>
+
+    </main> 
+    <footer>
+      <div id="footerdiv">
+        <img src="logo%20used%20in%20footer.svg" alt="no image here" />
+        <div class="footer-content">
+          <p class="footer-para">
+            | <span style="padding-left: 10px"> Copyright</span>
+            <span> &copy;</span> 2020-2021
+            <span style="padding-left: 8px">Zeus Systems Pvt. Ltd.</span>
+            <span style="padding-left: 8px">All rights reserved.</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+     <!-- humburger dropdown -->
+    <script>
+        const myBtn=document.getElementById('myBtn');
+        const demo=document.getElementById('demo');
+        const angleup=document.getElementById('angle-up')
+        console.log(demo);
+        console.log(myBtn);
+        myBtn.addEventListener("click",function TextR(){
+         demo.style.display='block';
+         myBtn.style.display='none';
+         angleup.style.display='block';
+         angleup.style.marginLeft="190px";
+         angleup.style.marginTop="-14px";
+
+
+         
+      })
+      angleup.addEventListener("click",function TextC(){
+         demo.style.display='none';
+         angleup.style.display='none';
+         myBtn.style.display='block';
+         myBtn.style.marginLeft="70px";
+         myBtn.style.marginTop="-12px";
+      })
+      </script>
+
+      <!-- humburger menu script -->
+
+    <script>
+      const navLink = document.querySelectorAll(".nav-link");
+
+      navLink.forEach((n) => n.addEventListener("click", closeMenu));
+      function closeMenu() {
+        MenuSidebar.classList.remove("active");
+        navMenu.classList.remove("active");
+      }
+
+      const MenuSidebar = document.querySelector(".MenuSidebar");
+      const navMenu = document.querySelector(".nav-menu");
+
+      MenuSidebar.addEventListener("click", SideMenu);
+
+      function SideMenu() {
+        MenuSidebar.classList.toggle("active");
+        navMenu.classList.toggle("active");
+      }
+    </script>
+    <!-- Alert script -->
+    <script>
+      const dropdown =document.querySelector(".dropdown");
+      const  badgef1=document.querySelector(".badgef1");
+      const dropdowncontent=document.querySelector(".dropdowncontent");
+      dropdown.addEventListener('mouseover',function handleMouseOver(){
+        dropdowncontent.style.display='block';
+        badgef1.style.display='none';
+
+      })
+      dropdown.addEventListener('mouseout',function handleMouseOut(){
+        dropdowncontent.style.display='none';
+        badgef1.style.display='block';
+        badgef1.style.marginLeft='-25px';
+
+      })
+    </script>
+    <!-- announcements script -->
+    <script>
+      const dropdown1 =document.querySelector(".dropdown1");
+      const dropdowncontent1=document.querySelector(".dropdowncontent1");
+      const  badgef2=document.querySelector(".badges2");
+      dropdown1.addEventListener('mouseover',function handleMouseOver(){
+        dropdowncontent1.style.display='block';
+        badgef2.style.display='none';
+      })
+      dropdown1.addEventListener('mouseout',function handleMouseOut(){
+        dropdowncontent1.style.display='none';
+        badgef2.style.display='block';
+        badgef2.style.marginLeft='12px';
+      })
+    </script>
+   
+    <!-- <script src="ICON.js"></script> -->
+    <script src="index.js"></script>
+    <!-- <script src="dashbord.js"></script> -->
+
+  </body>
+</html>
