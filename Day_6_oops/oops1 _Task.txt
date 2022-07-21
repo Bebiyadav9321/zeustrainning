@@ -1,0 +1,65 @@
+interface Button{
+
+}
+class WindowsButton implements Button {
+}
+
+class MacButton implements Button {
+ }
+interface Frame{
+	AddButton(button)
+}
+class WindowsFrame implements Frame {
+    AddButton(button)
+    {
+    }
+}
+
+class MacFrame implements Frame {
+    AddButton(button)
+    {
+    }
+}
+interface UICreator {
+   Button CreateButton();
+   Frame CreateFrame();    
+}
+ class WindowUIcreator implement UICreator{
+	Button createButton(){
+		WindowButton Wb =new WindowButton();
+		return Wb; 		
+	}
+	frame createFrame(){
+	WindowFrame Wf= new WindowFrame();
+	return Wf;
+	}
+}
+ class MacUIcreator implement UICreator{
+	Button createButton(){
+		MacButton Mb =new MacButton();
+		return Mb; 		
+	}
+	frame createFrame(){
+	WindowFrame Mf= new WindowFrame();
+	return Mf;
+	}
+}
+
+class MyApp {
+   
+    void Initialize() {
+	if(mac){
+		MacUICreator c = new MacUICreator();
+	}
+	else{
+		WindowUICreator c = new WindowUICreator();
+	}
+        Frame f = c.CreateFrame();
+        Button b1 = c.CreateButton();
+        Button b2 = c.CreateButton();
+        f.AddButton(b1);
+        f.AddButton(b2);
+    }
+
+}
+
